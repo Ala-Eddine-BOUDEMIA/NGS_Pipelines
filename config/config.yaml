@@ -11,4 +11,16 @@ threads:
     12
 
 aligner:
-    "bowtie2"
+    "bwa_mem"
+
+hmm_thresh:
+    5
+
+hmm_winS:
+    15
+
+bin_size:
+    1000
+
+binlist: 
+    ["1", "10", "20", "50", "100", "250", "500", "1000"]

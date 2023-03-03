@@ -19,7 +19,7 @@ rule bowtie2_mapping:
         R1 = R1_files,
         R2 = R2_files
     params:
-        "/Users/aboudemi/Documents/NGS_Analysis/Reference/hg19/Bowtie2Index/hg19"
+        "../Reference/hg19/Bowtie2Index/hg19"
     threads: 
         config['threads']
     run:    

@@ -26,6 +26,10 @@ rule multiQC:
         asm = expand("{dir}/QC/{samples}_ASM.txt",
                 dir=config['dir'], samples=config['samples']),
         dups_metrics = expand("{dir}/QC/{samples}_dup_metrics.txt",
-                dir=config['dir'], samples=config['samples'])
+                dir=config['dir'], samples=config['samples']),
+        stats = expand("{dir}/QC/{samples}_stats.txt",
+            dir=config['dir'], samples=config['samples']),
+        flagstat = expand("{dir}/QC/{samples}_flagstats.txt",
+            dir=config['dir'], samples=config['samples'])
     run:
         shell('multiqc --config config/multiqc_config.yml -f {input} -o {output.dir[0]}')
