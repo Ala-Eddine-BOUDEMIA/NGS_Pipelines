@@ -1,0 +1,14 @@
+extra_fn_clean_exts:
+  - ".fastq"
+  - ".bam"
+  - ".txt"
+  - ".html"
+  - ".zip"
+
+extra_fn_clean_trim:
+  - ".R1"
+  - ".R1_val_1"
+  - ".R2"
+  - ".R2_val_2"
+  - "_F"
+  - "_sorted"

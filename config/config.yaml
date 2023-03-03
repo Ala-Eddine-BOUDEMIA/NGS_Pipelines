@@ -1,0 +1,14 @@
+dir:
+    "../DRIP_Seq/pipeline_test"
+
+samples:
+    ["D1255C07"]
+
+data_type:
+    "PE"
+
+threads:
+    12
+
+aligner:
+    "bowtie2"
