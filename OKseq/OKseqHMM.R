@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-#' OKseqHMM backage
+#' OKseqHMM package
 #'
 #' This function allows you to generate the two corresponding strand bam files, to generate the RFD profiles and to identify most of the replication initiation/termination zones and also the intermediate states which RFD profiles are noramelly flat.
 #' @keywords OK-Seq, RFD, peak calling, HMM
